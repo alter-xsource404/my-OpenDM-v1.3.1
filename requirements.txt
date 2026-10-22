@@ -1,0 +1,4 @@
+# All optional: OpenDM runs on the standard library alone.
+cryptography>=42                       # AES-encrypted HLS streams
+pystray>=0.19; sys_platform != "darwin"  # system tray icon (Windows, Linux)
+pillow>=10                             # needed by pystray, and by tools/make_icons.py
